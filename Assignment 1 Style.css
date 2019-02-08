@@ -1,0 +1,196 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("mywebsitebackground.jpg");
+  padding: 0px;
+  margin: 0px;
+  font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-style: #777777;
+  line-height: 150%;
+
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 960px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 960px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0px;
+}
+
+a {
+  float: right;
+}
+
+.topnav-right {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 15px 15px 14px;
+  font-size: 17px;
+  float: right;
+  width: 100%;
+  position: static;
+}
+
+#h2Span {
+  background-color: #4aaaa5;
+  padding: 10px;
+  
+}
+
+ul {
+  float: right;
+  width: 40%;
+  margin-right: 0%;
+}
+
+li {
+  float: left;
+  padding-right: 10px;
+}
+
+h3{
+  color: #4aaaa5;
+}
+
+#contactdiv {
+  max-width: 600;
+  margin: right 100%;
+  clear: both;
+  
+}
+
+ h2{
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+ }
+
+#aboutmediv{
+  max-width: 600;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 20%;
+  border-color: solid 0.5px #777777;
+}
+
+
+main content {
+  background-color: #ffffff;
+  border-color: #dddddd;
+}
+
+footer{
+  background-color:#777777;
+    color: white;
+    padding: 30px 0;
+    clear: both;
+    border-top: 20px solid #4aaaa5;
+    font-size: 12px;
+    text-align:center;
+    margin-top: 30px;
+}
+
+#msgbox {
+  font-size: .8rem;
+  letter-spacing: 1px;
+}
+#msgbox {
+  padding: 10px;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+#firstname{
+margin-bottom: 10px;
+}
+
+#lastname{
+margin-bottom: 10px;
+}
+
+.aboutMeP {
+color: #777777;
+}
+p{
+color: white;
+float: left;
+width: 70%;
+}
+
+.bio-image{
+float: left;
+size: auto;
+margin-right: 20px;
+}
+
+article{
+clear: both;
+}
+.center {
+margin: auto;
+width: 60%;
+border: 0.3px solid;
+padding: 10px;
+}
+
+label{
+float: left;
+}
